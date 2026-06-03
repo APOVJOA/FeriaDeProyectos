@@ -13,6 +13,8 @@
 #define NET_SSID                  "UPV-PSK"
 #define NET_PASSWD                "giirob-pr2-2023"
 /*CAMBIAR EL WIFI PARA PROBALO EN CASA*/
+//"UPV-PSK"
+//"giirob-pr2-2023"
 
 
 // MQTT
@@ -22,8 +24,8 @@
 #define MQTT_PASSWORD             "UPV2024"
 
 
-#define STATION_COMMAND_TOPIC "giirob/pr2/station/mesa/status" //leer
-#define STATION_STATUS_TOPIC "giirob/pr2/station/mesa/commands"  //enviar
+#define STATION_COMMAND_TOPIC "giirob/pr2/station/mesa/status/sensorB1" //leer
+#define STATION_STATUS_TOPIC "giirob/pr2/station/mesa/commands/Cinta"  //enviar
 
 
 //mensajes que se envian

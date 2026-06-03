@@ -15,7 +15,7 @@ const char *ssid = "UPV-PSK"; //recordar cambiar
 const char *password = "giirob-pr2-2023";
 
 const char *mqtt_broker = "broker.emqx.io";
-const char *station_command_topic = "giirob/pr2/station/mesa/commands"; // solo enviar 
+const char *station_command_topic = "giirob/pr2/station/mesa/commands/DecCaja"; // solo enviar 
 
 const char *mqtt_username = "giirob222";
 const char *mqtt_password = "UPV2024";

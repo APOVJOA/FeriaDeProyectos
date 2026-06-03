@@ -25,7 +25,7 @@
 #define MQTT_PASSWORD             "UPV2024"
 
 #define STATION_COMMAND_TOPIC "giirob/pr2/station/mesa/status" //leer
-#define STATION_STATUS_TOPIC "giirob/pr2/station/mesa/commands"  //enviar
+#define STATION_STATUS_TOPIC "giirob/pr2/station/mesa/commands/TEMP"  //enviar
 
 //mensajes que enviamos 
 #define ENVIAR_MENSAJE_TEMEPRATURA_ALTA "temperatura_alta"
